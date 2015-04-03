@@ -5,7 +5,7 @@ This repository provides A Windows command line utility to modify user Box quota
 This utility can update ~7-8 users per second (~25-29K per hour). Box API access tokens expire after approximately one our, thus if you have an enterprise with more than ~30K users you may wish to specify a `refresh token`, `client id`, and `client secret` with which the utility can fetch a new API access token and continue working uninterrupted.
 
 # Usage
-1. [Register for a Box Content API key](https://iu.app.box.com/developers/services/edit/) with the following settings under `OAuth2 Parameters`:
+1. [Register for a Box Content API key](https://iu.app.box.com/developers/services/edit/). Add the following settings under `OAuth2 Parameters`:
    + **redirect_uri**: set to `https://box-oauth2-mvc.azurewebsites.net`
    + **Scopes**: check `Manage an enterprise`
 
