@@ -1,3 +1,7 @@
+<img src="images/box-dev-logo-clip.png" 
+alt= “box-dev-logo” 
+style="margin-left:-10px;"
+width=40%;>
 # About
 This repository provides A Windows command line utility to modify user Box quotas (space allotment) for active accounts. 
 
